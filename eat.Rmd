@@ -39,7 +39,7 @@ barchartGC(~race+ eatout,data=mydata, type="percent")
 
 ```
 
-Looking at the bar chart you can infer that the white race eat out more than the other races.
+Looking at the bar chart you can infer that the white race eat out more than the black and other races.
 
 ```{r}
 table1 <- xtabs(~race + eatout, data=mydata)
