@@ -41,5 +41,10 @@ barchartGC(~race+ eatout,data=mydata, type="percent")
 
 Looking at the bar chart you can infer that the white race eat out more than the other races.
 
+```{r}
+table1 <- xtabs(~race + eatout, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
+Looking at the numerical summary it tells us that for the white race has 83.11% eat out and 16.89% do not. For the black race 69.04% eat out and 30.96% do not. Lastly for other races 72.12% eat out and 27.88% do not. You can see that white people and other races eat out more compared to black people.
