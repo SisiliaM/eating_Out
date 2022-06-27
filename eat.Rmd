@@ -48,3 +48,11 @@ colPerc(table1)
 ```
 
 Looking at the numerical summary it tells us that for the white race has 83.11% eat out and 16.89% do not. For the black race 69.04% eat out and 30.96% do not. Lastly for other races 72.12% eat out and 27.88% do not. You can see that white people and other races eat out more compared to black people.
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+
