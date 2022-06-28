@@ -124,8 +124,8 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
 
 ```
 ```{r}
-fisherXY(mydata$race,mydata$eatout)
+fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
 
-Looking at the fisherXY test it tells us that the white race is different from the black and other race. However the black race and other do not have a difference. 
+Looking at the fisherXY test it tells us that there is a difference between the white race and the black race. There also is a difference between the white race and the other race. However the black race and other race do not have a difference. 
 
