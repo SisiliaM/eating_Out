@@ -129,3 +129,5 @@ fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 
 Looking at the fisherXY test it tells us that there is a difference between the white race and the black race. There also is a difference between the white race and the other race. However the black race and other race do not have a difference. 
 
+
+All and all we learned that the white race has  difference compared to the blaks and other races. We also learned that the white race had a higher number of people who eat out and the blacks had the lowest number of people who do not eat out.
